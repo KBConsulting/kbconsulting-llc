@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'montserratlite';
+  src: url('./fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+a {
+  color: black;
+}
+
+header {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-family: montserratlite;
+}
+
+h1 {
+  font-family: montserratlite;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-family: verdana;
+  font-size: 18px;
+  text-align: left;
+}
+
+h4 {
+  font-family: montserratlite;
+  font-size: 20px;
+  text-align: center;
+}
+
+h4:hover {
+  background-color: lightgray;
+}
+
+body {
+  padding: 25px;
+  color: black;
+}
+
+footer {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  font-family: montserratlite;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  padding: 15px;
+}
+
+.active {
+  font-family: monserratbold;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.block {
+  font-family: verdana;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.block-center {
+  font-family: verdana;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}
+
+.block-italic {
+  font-family: verdana;
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  text-align: justify;
+}
+
+.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.no-ul {
+  text-decoration: none;
+}
+
+.navbar-list {
+  padding: 0px;
+  padding-top: 40px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  /* font-size: 18px; */
+  color: black;
+}
+
+.navbar-item:hover {
+  background-color: lightgray;
+}
