@@ -1,11 +1,10 @@
 @font-face {
-  font-family: 'montserratlite';
-  src: url('./fonts/Montserrat-Light.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'montserratbold';
   src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'montserratlite';
+  src: url('./fonts/Montserrat-Light.ttf') format('truetype');
 }
 
 a {
